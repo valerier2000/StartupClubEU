@@ -1,17 +1,30 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #262626;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+  box-sizing: border-box;
 }
 
-#mainpic{
-    margin: 0;
-    padding: 0;
-   /* width: 100vw;*/
-    height: 90vh;
+#mainpic {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-ul li{
-    
+ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style-type: none;
+  overflow: hidden;
 }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+}
+
