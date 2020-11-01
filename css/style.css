@@ -3,8 +3,12 @@ body {
   padding: 0;
   background-color: #262626;
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  
 }
-
+.banner {
+  width: 100%;
+}
 #mainpic {
   margin: 0;
   padding: 0;
@@ -17,14 +21,39 @@ ul {
   color: white;
   list-style-type: none;
   overflow: hidden;
+  width: auto;
+  
 }
 
-a{
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 20px 18px;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 
-li {
-  float: left;
+li a:hover{
+
 }
 
+
+.flex-container{
+  position: absolute;
+  width: 100%;
+}
+.flex-container ul {
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+}
+ li#logo {
+   margin-right: auto;
+   
+ }
+
+ a#startup{
+   font-size: 1.4rem;
+ }
