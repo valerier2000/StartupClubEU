@@ -1,4 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #262626;
+    box-sizing: border-box;
+}
+
+#mainpic{
+    margin: 0;
+    padding: 0;
+   /* width: 100vw;*/
+    height: 90vh;
 }
