@@ -48,6 +48,28 @@ li#logo {
   margin-right: auto;
 }
 
-a#startup {
+a#startup-main-menu {
   font-size: 1.4rem;
+}
+
+h1{
+  margin-bottom: 40px;
+  padding-top: 40px;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #EF7911;
+  text-align: center;
+}
+
+#section-about{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #EF7911;
+  text-align: center;
+  padding: 0 100px;
 }
