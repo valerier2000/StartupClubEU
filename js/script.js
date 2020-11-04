@@ -1,5 +1,5 @@
 'use strict'
-
+//timer
 var myfunc = setInterval(function(){
     var countDownDate = new Date("Nov 16, 2020, 13:50:00").getTime();
 

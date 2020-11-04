@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
@@ -56,12 +58,26 @@
         </div>
 
 
-        <div>
-            <p id="days"></p>
-            <p id="hours"></p>
-            <p id="mins"></p>
-            <p id="secs"></p>
-            <h2 id="end"></h2>
+        <div class="odd-el">
+            <h1>Next event</h1>
+            <div>
+                <div>
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span>Location: "Zoom"</span>
+                </div>
+                <div>
+                    <span class="fas fa-calendar-day"></span>
+                    <span>Date: Monday, November 16, 2020, 1.50PM (GMT+2)</span>
+                </div>
+            </div>
+            
+            <div class="flex-container">
+                <div id="days"></div>
+                <div id="hours"></div>
+                <div id="mins"></div>
+                <div id="secs"></div>
+            </div>
+
         </div>
 
 
