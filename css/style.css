@@ -59,14 +59,14 @@ h1{
   padding-top: 40px;
   font-size: 3.5rem;
   font-weight: 800;
-  color: #EF7911;
+  /* color: #EF7911; */
   text-align: center;
 }
 
 p{
   font-size: 1.7rem;
   font-weight: 500;
-  color: #EF7911;
+  /* color: #EF7911; */
   text-align: center;
   /* padding: 0 100px 80px 100px; */
 
@@ -82,4 +82,13 @@ p{
 
 .flex-el{
   padding: 100px 70px 80px 70px;
+}
+
+.even-el{
+  color: white;
+  background-color: #EF7911;
+}
+
+.odd-el{
+  color: #EF7911;
 }
