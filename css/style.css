@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: #262626;
   font-family: "Rubik", sans-serif;
-  
 }
 
 #mainpic {
@@ -74,6 +73,7 @@ p{
 
 .flex-container{
   display: flex;
+  align-items: center;
 }
 
 .main-page-pic{
@@ -94,9 +94,44 @@ p{
 }
 
 .timer{
-  padding: 30px 40px;
+  padding: 50px 30px;
   margin: 2px;
   color: white;
   background-color: #EF7911;
   border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  width: 50px;
 }
+
+#days::after{
+  content: " days";
+  color: white;
+  text-align: center;
+}
+
+#hours::after{
+  content: " hours";
+  color: white;
+  text-align: center;
+}
+
+#mins::after{
+  content: " mins";
+  color: white;
+  text-align: center;
+}
+
+#secs::after{
+  content: " secs";
+  color: white;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+
+/* .next-event-text{
+  align-items: center;
+} */
