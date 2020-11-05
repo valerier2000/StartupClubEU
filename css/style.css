@@ -67,7 +67,7 @@ p{
   font-size: 1.7rem;
   font-weight: 500;
   /* color: #EF7911; */
-  text-align: center;
+  /* text-align: center; */
   /* padding: 0 100px 80px 100px; */
 
 }
@@ -78,7 +78,6 @@ p{
 
 .main-page-pic{
   width: 40vw;
-  border-radius: 50%;
 }
 
 .flex-el{
