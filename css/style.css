@@ -73,7 +73,6 @@ p{
 
 .flex-container{
   display: flex;
-  align-items: center;
 }
 
 .main-page-pic{
@@ -81,7 +80,7 @@ p{
 }
 
 .flex-el{
-  padding: 100px 70px 80px 70px;
+  padding: 100px 60px 80px 60px;
 }
 
 .even-el{
@@ -94,7 +93,7 @@ p{
 }
 
 .timer{
-  padding: 50px 30px;
+  padding: 40px 40px;
   margin: 2px;
   color: white;
   background-color: #EF7911;
@@ -129,9 +128,20 @@ p{
 }
 
 h2{
-  font-size: 30px;
+  font-size: 40px;
 }
 
-/* .next-event-text{
+.next-event-text{
   align-items: center;
-} */
+}
+
+.next-event-info{
+  font-size: 17px;
+  line-height: 0.5;
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.next-event-header{
+  margin-bottom: 0;
+}
