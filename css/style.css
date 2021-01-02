@@ -145,3 +145,64 @@ h2{
 .next-event-header{
   margin-bottom: 0;
 }
+
+.our-events-header{
+  align-items: center;
+}
+
+.our-events-pic{
+  width: 24vw;
+}
+
+.our-events-section{
+  justify-content: space-around;
+}
+
+.centered-text{
+  text-align: center;
+}
+
+h3{
+  font-size: xx-large;
+}
+
+.description-of-events{
+  font-weight: 300;
+  font-size: 19px;
+}
+
+/*button*/
+.main-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button{
+  width: 130px;
+  height: 40px;
+}
+.btn{
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  background: white;
+  border: 2px solid #EF7911;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s;
+  color: #EF7911;
+}
+
+.btn:hover{
+  border: 2px solid white;
+  background: #EF7911;
+  color: white;
+}
+
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}

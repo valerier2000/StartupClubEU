@@ -16,3 +16,4 @@ var myfunc = setInterval(function(){
     document.getElementById("mins").innerHTML = minutes
     document.getElementById("secs").innerHTML = seconds
 }, 1000);
+
