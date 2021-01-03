@@ -68,7 +68,6 @@ p{
   /* color: #EF7911; */
   /* text-align: center; */
   /* padding: 0 100px 80px 100px; */
-
 }
 
 .flex-container{
@@ -80,7 +79,7 @@ p{
 }
 
 .flex-el{
-  padding: 100px 60px 80px 60px;
+  padding: 80px 60px 80px 60px;
 }
 
 .even-el{
@@ -147,7 +146,9 @@ h2{
 }
 
 .our-events-header{
-  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 80px;
 }
 
 .our-events-pic{
@@ -160,10 +161,15 @@ h2{
 
 .centered-text{
   text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
-h3{
+h3.centered-text{
   font-size: xx-large;
+  margin-bottom: 0;
 }
 
 .description-of-events{
@@ -202,7 +208,7 @@ h3{
   color: white;
 }
 
-img{
+img.shadowed{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
               0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -221,4 +227,60 @@ img{
   background: #262626;
   color: #EF7911;
   border-color: #EF7911;
+}
+
+.contact-us{
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.contact-us + p{
+  text-align: center;
+}
+
+footer{
+  color: #EF7911;
+}
+
+.icons{
+  font-size: 30px;
+}
+
+.icons a{
+  color: #EF7911;
+}
+
+.icons i:hover{
+  color: white;
+  transition: ease-in 0.3s;
+  
+}
+
+.icons a:visited{
+  color: #EF7911;
+}
+
+#copyright{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-info{
+  margin: 0;
+  padding: 0 60px;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.footer-info p{
+  font-size: 14px;
+  line-height: 0.2;
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.footer-info h3{
+  font-size: 23px;
+  margin: 15px 0;
 }
