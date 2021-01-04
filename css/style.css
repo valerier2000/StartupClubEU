@@ -72,6 +72,7 @@ p{
 
 .flex-container{
   display: flex;
+  justify-content: space-evenly;
 }
 
 .main-page-pic{
